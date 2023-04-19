@@ -19,3 +19,9 @@ def Keyword(message, key):
 # Define function to encrypt the message
 def encryption(message, key):
     encrypt_message = []
+# Add modulo 26 to the message and key
+    for i in range(len(message)):
+        x = (ord(message[i]) + ord(key[i])) % 26
+        x += ord('A')
+        encrypt_message.append(chr(x))
+    return ("".join(encrypt_message))
