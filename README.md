@@ -13,30 +13,34 @@ The task is to write a program that asks the user for the plaintext (all upperca
 
 Give the output of your program for the following message and key:
 
-   **Message :** THISISTHELASTTASKHOORDAY
-
-   **Key :** KNIGHTS
+   **_Message :_** THISISTHELASTTASKHOORDAY
+   
+   **_Key :_** KNIGHTS
 
 ## About the Program
 **STEPS**
 
 1. Define a function in order to create a keyword. This will look like this:
 
-     def Keyword(message, key):
-          key = list(key)
+       def Keyword(message, key):
+       
+     
+           key = list(key)
 
 2. Make sure that the parameter are of the same length. If it is equal, return key. If not, append the key to add element to the key.
 
 3. Define another function for encryption the message. This will look like this:
 
-     def encryption(message, key):
+       def encryption(message, key):
+       
+     
           encrypt_message = []
 
 4. Add modulo 26 to the message and key. This will help in encrypting and decrypting the message according to vigenere cipher.
 
-5. Utilize a conditional statement for name and __main__ in asking the user for the input. This will contain the output to ask for the message and the keyword, the key that was defined earlier, and the encrypt function that was also defined earlier.
+5. Utilize a conditional statement ``name and __main__`` in asking the user for the input. This will contain the output to ask for the message and the keyword, the key that was defined earlier, and the encrypt function that was also defined earlier.
 
-6. Print the encrypted message using print().
+6. Print the encrypted message using ``print()``.
 
 ## Running the Program
 
