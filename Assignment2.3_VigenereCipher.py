@@ -25,3 +25,10 @@ def encryption(message, key):
         x += ord('A')
         encrypt_message.append(chr(x))
     return ("".join(encrypt_message))
+
+if __name__ == "__main__":
+# Ask user for the message and keyword all in uppercase letters and no spaces
+    message = input("Enter the message in capital letters and no spaces: ")
+    message_keyword = input("Enter the keyword in capital letters: ")
+    key = Keyword(message, message_keyword)
+    encrypt_message = encryption(message, key)
