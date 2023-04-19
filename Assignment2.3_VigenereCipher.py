@@ -15,3 +15,7 @@ def Keyword(message, key):
         for i in range (len(message) - len(key)):
             key.append(key[i % len(key)])
         return ("".join(key))
+
+# Define function to encrypt the message
+def encryption(message, key):
+    encrypt_message = []
