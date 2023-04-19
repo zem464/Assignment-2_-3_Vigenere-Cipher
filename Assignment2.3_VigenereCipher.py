@@ -32,3 +32,5 @@ if __name__ == "__main__":
     message_keyword = input("Enter the keyword in capital letters: ")
     key = Keyword(message, message_keyword)
     encrypt_message = encryption(message, key)
+# Print the encrypted ciphertext using the Vigenere cipher
+    print ("Encrypted message: ",encrypt_message)
