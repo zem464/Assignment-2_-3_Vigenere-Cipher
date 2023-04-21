@@ -28,9 +28,9 @@ def encryption(message, key):
 
 if __name__ == "__main__":
 # Ask user for the message and keyword all in uppercase letters and no spaces
-    message = input("Enter the message in capital letters and no spaces: ")
-    message_keyword = input("Enter the keyword in capital letters: ")
+    message = input("\033[31m\033[1mEnter the message in capital letters and no spaces: \033[35m\033[0m")
+    message_keyword = input("\033[31m\033[1mEnter the keyword in capital letters: \033[35m\033[0m")
     key = Keyword(message, message_keyword)
     encrypt_message = encryption(message, key)
 # Print the encrypted ciphertext using the Vigenere cipher
-    print ("Encrypted message: ",encrypt_message)
+    print ("\033[34m\033[1mEncrypted message: \033[35m\033[0m",encrypt_message)
