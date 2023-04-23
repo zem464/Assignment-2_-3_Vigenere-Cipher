@@ -1,4 +1,4 @@
-# Assignment-2_-3_Vigenere-Cipher
+# Assignment-3_-3_Vigenere-Cipher
 
 **Built for :** Subject assignment for Object Oriented Programming.
 
@@ -53,6 +53,6 @@ Give the output of your program for the following message and key:
 ### Contact
 Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
 
-**Project Link :** https://github.com/zem464/Assignment-2_-3_Vigenere-Cipher.git
+**Project Link :** https://github.com/zem464/Assignment-3_-3_Vigenere-Cipher.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
